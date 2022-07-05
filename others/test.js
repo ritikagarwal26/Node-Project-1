@@ -18,7 +18,7 @@ var str = "An"
 //     }
 // })
 
-let a = users.findIndex(function(user){
+let a = users.find(function(user){
     if (user.name.includes(str)) {
         return (user)
     }
