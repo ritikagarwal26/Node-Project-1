@@ -47,13 +47,13 @@ let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 let res = []
 let res2 = []
-for(let i = 0;i<a.length;i++){
-    if(a[i] % 2 === 0){res.push(a[i])} 
+for (let i = 0; i < a.length; i++) {
+    if (a[i] % 2 === 0) { res.push(a[i]) }
 
 }
 
-a.forEach(function(val){
-    if(val % 2 === 0){
+a.forEach(function (val) {
+    if (val % 2 === 0) {
         res2.push(val)
     }
 })
